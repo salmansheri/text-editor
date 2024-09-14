@@ -1,4 +1,4 @@
 CC = gcc
 
 all:
-	${CC} -o editor *.c -lX11
+	${CC} -o editor *.c -lX11 -lGL
